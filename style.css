@@ -1,0 +1,992 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shadows+Into+Light&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+
+
+.align {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 3rem;
+}
+
+.componentSpacing {
+    padding: 3rem 0;
+}
+.minipad{
+    padding: 1rem;
+}
+
+header{
+    width: 100%;
+    height: auto;
+}
+main{
+    width: 100%;
+    height: auto;
+}
+footer{
+    width: 100%;
+    height: auto;
+}   
+.grid-1{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.dflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dflex-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.dflex-col-start {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+}
+.webdesignheadingbody{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.webdesignheadingbody h2{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "helvetica";
+    
+}
+
+.webdesignbody{
+   display: flex;
+   
+   padding: 0px 50px;
+}
+.designpoints{
+    
+    
+}
+
+.designpoints p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-align: left;
+    font-family: "helvetica";
+    line-height: 30px;
+    
+    
+}
+.designpoints strong {
+    font-weight: bold;
+}
+.designpoints a{
+    text-decoration: none;
+    color: green;
+    font-size: 18px;
+}
+.responsivecontainer{
+    background-color: #292B2D;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.resheading{
+    text-align: end;
+}
+.resheading h3{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "helvetica";
+    color: #F15639;
+
+}
+.responsiveweb{
+    padding-left: 250px;
+    
+}
+.responsiveweb p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "helvetica";
+    color: white;
+    line-height: 25px;
+}
+.responsiveweb a{
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 400;
+    color: green;
+}
+.applicationcontianer{
+    padding: 40px;
+    background-color: #FFFFFF;
+    
+}
+.appheading{
+    padding-top:10px ;
+}
+
+
+.appheading h2{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "helvetica";
+    padding: 10px;
+}
+.appheading h2 span{
+    font-size: 30px;
+    font-family: "helvetica";
+    font-weight: 500;
+    margin-left: 80px;
+    
+}
+.appdevelop{
+    margin-bottom: 10px;
+    text-align: left;
+    padding: 0px 10px;
+}
+.appdevelop p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "helvetica";
+    line-height: 30px;
+
+}
+.appdevelop a {
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 400;
+    color: green;
+    
+    
+}
+.applogo img{
+    height: 500px;
+}
+
+.borchureheading  h2{
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+    font-family: "helvetica";
+    margin-right: 70px;
+    padding: 20px;
+
+}
+.portlogo img{
+    border: 40px solid black;
+    height: 400px;
+    /* width: 80%; */
+}
+.brodesigntext{
+    background-color: #11D96F;
+    padding: 10px 30px;
+}
+.brodesignhead h2{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "helvetica";
+    color: white;
+    padding: 0px 7px;
+
+}
+.brodesignhead h2 span{
+    font-size: 27px;
+    font-weight: 500;
+    font-family: "helvetica";
+    color: white;
+    margin-left: 90px;
+
+}
+.brodesignmark p{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32px;
+    color: white;
+}
+.brodesignread{
+    text-align: end;
+}
+.brodesignread a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+.logoportocontainer{
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+.logodestext{
+    background-color: #4048B2;
+    padding: 30px 20px;
+    
+    color: white;
+}
+
+.logodeshead h2{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "helvetica";
+    text-align: center;
+    line-height: 20px;
+    padding: 10px;
+    
+
+}
+.logopoint p{
+    font-size: 19px;
+    font-weight: 400;
+    font-family: "helvetica";
+    line-height: 35px;
+    
+}
+.logoread{
+    text-align: end;
+    padding-top: 5px;
+}
+.logoread a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+
+}
+.logoporto{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.logoportohead{
+    padding: 10px;
+}
+.logoportohead h2{
+    font-size: 34px;
+    font-weight: 700;
+    font-family: "helvetica";
+    padding-left: 50px;
+    color: black;
+    /* text-align: center; */
+}
+.logoporto img{
+    border: 20px solid black;
+    height: 300px;
+}
+.ecomhead{
+    padding: 20px;
+}
+
+.ecomhead h2{
+    font-size: 34px;
+    font-weight: 700;
+    font-family: "helvetica";
+    text-align: center;
+
+}
+.ecomhead h2 span{
+    font-size: 33px;
+    font-weight: 500;
+    font-family: "helvetica";
+
+}
+.ecomlogo {
+    margin-left: 90px;
+    padding-left: 180px;
+}
+.ecommercetext {
+    text-align:start ;
+
+    padding-right: 50px;
+    margin-left: 40px;
+}
+.ecommercetext p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "helvetica";
+    line-height: 28px;
+
+
+}
+.ecomread {
+    text-align: end;
+}
+.ecomread  a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    
+    
+}
+
+.ecomcontainer{
+    background-color: #4F5E76;
+    color: white;
+}
+.mobileappcontainer{
+    background-color: #02132C;
+    color: white;
+    padding: 30px;
+}
+.mobileapplicatonbody{
+    padding-bottom: 20px;
+}
+
+.mobileappheadbody h2{
+    font-size:34px ;
+    font-weight: 700;
+    font-family: "helvetica";
+    text-align: center;
+    padding: 20px;
+}
+.mobileapptext p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "helvetica";
+    line-height: 30px;
+}
+.mobileappheadbody h2 span{
+    font-weight: 500;
+}
+.mobiledevelophead h2{
+    font-size: 18px;
+    font-family: "helvetica";
+    font-weight: 500;
+    text-align: center;
+    color: #00FFE4;
+
+}
+
+.iosdevelophead h2{
+    font-size: 18px;
+    font-family: "helvetica";
+    font-weight: 500;
+    text-align: center;
+    color: #00FFE4;
+
+}
+.appdeveloptext{
+    margin-left: 30px;
+
+}
+.appdeveloptext p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "helvetica";
+    line-height: 30px;
+
+}
+.appdevelopread{
+    text-align: end;
+}
+.appdevelopread a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+
+}
+.iosdeveloptext{
+    margin-left: 40px;
+}
+.iosdeveloptext p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "helvetica";
+    line-height: 30px;
+}
+.iosread{
+    text-align: end;
+}
+.iosread a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+.searchenginecontainer{
+    background-color: #F75852;
+    color: white;
+    padding: 20px;
+}
+
+
+.enginehead h2{
+    font-size: 34px;
+    font-weight: 700;
+    font-family: "helvetica";
+    text-align: center;
+}
+.enginehead h2 span{
+    font-weight: 500;
+}
+.searchtext p{
+    font-size: 18px;
+    font-family: "helvetica";
+    line-height: 30px;
+}
+.searchread {
+    text-align: end;
+}
+.searchread a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+
+}
+.partners{
+    padding: 30px;
+}
+.partnersbody{
+    gap: 80px;
+}
+.partnersbody img{
+    height: 90px;
+}
+.aboutcontainer{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: white;
+    background-image: url(./assests/images/footmid\ background.jpg);
+}
+.about{
+    /* background-image: url(./assests/images/footmid\ background.jpg); */
+}
+.websitehead{
+    text-align: start;
+
+}
+.websitehead h2{
+    font-size: 19px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}
+.websitedesigning li{
+    list-style: none;
+    text-align: start;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 35px;
+    
+}
+.flashwedhead h2{
+    font-size: 19px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    text-align: start;
+}
+.flashwebsite li{
+    list-style: none;
+    text-align: start;
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: start;
+    line-height: 35px;
+    
+
+}
+.eweebsitehead h2{
+    font-size: 19px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    text-align: start;
+
+}
+.ewebsitelink li{
+    list-style: none;
+    text-align: start;
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: start;
+    line-height: 35px;
+
+}
+.mobapplicationhead h2{
+    font-size: 19px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    text-align: start;
+
+}
+.mobapplink li{
+    list-style: none;
+    text-align: start;
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: start;
+    line-height: 35px;
+
+}
+.developmenthead h2{
+    font-size: 19px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    text-align: start;
+
+}
+.deveopmentlink li{
+    list-style: none;
+    text-align: start;
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: start;
+    line-height: 35px;
+
+
+}
+.graphichead h2{
+    font-size: 19px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    text-align: start;
+
+
+}
+.graphiclink li{
+    list-style: none;
+    text-align: start;
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: start;
+    line-height: 35px;
+
+
+}
+.ophead h2{
+    font-size: 19px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    text-align: start;
+
+}
+.oplink li{
+    list-style: none;
+    text-align: start;
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: start;
+    line-height: 35px;
+
+}
+.hirehead h2{
+    font-size: 19px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    text-align: start;
+
+}
+.hireli li{
+    list-style: none;
+    text-align: start;
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: start;
+    line-height: 35px;
+
+}
+.hostinghead h2{
+    font-size: 19px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    text-align: start;
+
+}
+.hostingli li{
+    list-style: none;
+    text-align: start;
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: start;
+    line-height: 35px;
+
+
+}
+.outsourcehead h2{
+    font-size: 19px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    text-align: start;
+
+}
+.outsorcelink li{
+    list-style: none;
+    text-align: start;
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: start;
+    line-height: 35px;
+
+}
+.customwebapphead h2{
+    font-size: 19px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    text-align: start;
+
+
+}
+.customlink li{
+    list-style: none;
+    text-align: start;
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: start;
+    line-height: 35px;
+
+}
+.seohead h2{
+    font-size: 19px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    text-align: start;
+
+}
+.seolink li {
+    list-style: none;
+    text-align: start;
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: start;
+    line-height: 35px;
+
+}
+.aboutushead h2{
+    font-size: 19px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    text-align: start;
+
+}
+.aboutlink li{
+    list-style: none;
+    text-align: start;
+    font-size: 16px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: start;
+    line-height: 35px
+
+}
+
+
+.copyrightcontainer{
+    background-color: black;
+    color: white;
+}
+
+.allrights{
+    text-align: center;
+}
+.allrights p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "helvetica";
+
+}
+.reserved{
+    text-align: center;
+}
+.reserved p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "helvetica";
+
+
+}
+.topbody{
+    background-color: #1772AC;
+}
+.quote-btn {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.quote-btn:hover {
+    background-color: #e5533d;
+}
+.contact span {
+    color: white;
+}
+
+
+
+
+
+@media(width <=576px) {
+
+    .grid-1 .grid-2{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .grid-2{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .grid-4{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+     .navContainer .heroContainer .webdesigncontainer .applicationcontianer.clientsContainer .satisfiedContainer .chooseContainer .contactContainer {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        max-width: 576px;
+        margin: auto;
+        padding: 0 1rem;
+        
+
+    }
+    .webdesignbody{
+        
+        
+        padding: 0px 0px;
+     } 
+
+
+    .webdesignbody{
+        display: flex;
+        flex-direction: column;
+    }
+    .designpoints p {
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 15px;
+        text-align: left;
+        font-family: "helvetica";
+        line-height: 30px;
+        
+        
+    }
+
+    .webdesignbody img{
+        height: 300px;
+        width: 100%;
+    }
+    .responsivebody{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .responsiveweb{
+        align-items: center;
+    }
+    .responsiveweb{
+        padding-left: 0px;
+        
+    }
+    .appweb{
+        /* display: flex; */
+        flex-direction: column;
+
+    }
+    .applogo img{
+        height: 400px;
+    }
+    .applicationcontianer{
+        padding: 0px;
+        background-color: #FFFFFF;
+        
+    }
+    .appdevelop{
+        margin-bottom: 10px;
+        text-align: start;
+        padding: 0px 0px;
+        width:100%;
+    }
+    
+    .appheading h2{
+        font-size: 20px;
+        font-weight: 500;
+        font-family: "helvetica";
+        padding: 15px;
+    }
+    .appheading h2 span{
+        font-size: 20px;
+        font-family: "helvetica";
+        font-weight: 500;
+        margin-left: 10px;
+        
+    }
+    .brodesignhead h2{
+        font-size: 28px;
+        font-weight: 700;
+        font-family: "helvetica";
+        color: white;
+        padding: 0px 7px;
+    
+    }
+    .borchureheading  h2{
+        text-align: center;
+        font-size: 34px;
+        font-weight: 700;
+        font-family: "helvetica";
+        margin-right: 0px;
+        padding: 20px;
+    
+    }
+    .align {
+        max-width: 1200px;
+        margin: auto;
+        padding: 0 0rem;
+    }
+
+    .portlogo img{
+        border: 20px solid black;
+        height: 300px;
+        /* width: 80%; */
+    }
+    .brodesignhead h2{
+        font-size: 28px;
+        font-weight: 700;
+        font-family: "helvetica";
+        color: white;
+        padding: 0px 0px;
+        text-align: center;
+    
+    }
+    .brodesignhead h2 span{
+        font-size: 26px;
+        font-weight: 500;
+        font-family: "helvetica";
+        color: white;
+        margin-left: 0px;
+    
+    }
+    .logoporto{
+        margin-left: 0px;
+        margin-top: 0px;
+        padding-top: 30px;
+        
+    }
+    .ecombody{
+        display: flex;
+        flex-direction: column;
+    }
+    .ecomlogo {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .ecommercetext {
+        text-align:start ;
+    
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+    .appdevelopmnet{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .mobileappcontainer{
+        background-color: #02132C;
+        color: white;
+        padding: 0px;
+    }
+   
+    .appdeveloptext{
+        margin-left: 0px;
+    
+    }
+    .iosdevelopment{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+    }
+    .iosdeveloptext{
+        margin-left: 0px;
+    }
+    .enginefunction{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        line-height: 20px;
+    }
+    .partners{
+        padding: 30px;
+    }
+    .partnersbody{
+        gap: 0px;
+    }
+    .partnersbody img{
+        height: 90px;
+    }
+    .aboutcontainer{
+        text-align: center;
+    }
+    .copyimage{
+        display: flex;
+        flex-direction: row;
+    }
+    .copyimage img{
+        height: 22px;
+    }
+    .top-bar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .nav-bar ul {
+        flex-wrap: wrap;
+    }
+
+    .nav-bar li {
+        flex: 1 1 50%;
+        text-align: center;
+    }
+    .contact{
+        display: none;
+    }
+ 
+   
+
+}
+
+
+
+
